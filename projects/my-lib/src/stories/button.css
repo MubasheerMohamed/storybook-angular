@@ -8,14 +8,14 @@
   line-height: 1;
 }
 .storybook-button--primary {
-  color: white;
-  background-color: #007ab8;
-  box-shadow: 0 1px 2px #00000052;
-}
-.storybook-button--secondary {
   color: #003d7a;
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+.storybook-button--secondary {
+  color: white;
+  background-color: #007ab8;
+  box-shadow: 0 1px 2px #00000052;
 }
 .storybook-button--small {
   font-size: 12px;
