@@ -4,7 +4,7 @@ name: 'Chromatic Deployment'
 # Event for the workflow
 on:
   pull_request:
-    branches: [main]
+    branches: [develop]
 
 # List of jobs
 jobs:
@@ -22,5 +22,5 @@ jobs:
       - name: Publish to Chromatic
         uses: chromaui/action@v1
         with:
-          projectToken: \${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-		   exitOnceUploaded: true
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          exitOnceUploaded: true
